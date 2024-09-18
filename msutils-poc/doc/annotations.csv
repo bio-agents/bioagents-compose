@@ -1,0 +1,34 @@
+name,EDAM operation,EDAM data type in,EDAM data format in,EDAM data type out,EDAM data format out,Comment
+Comet,operation_3646,data_0943,format_3244|format_3654,data_0945,format_3655,ok
+CompassXport,operation_0335,data_0943,format_3651|format_3654|format_3244,data_0943,format_3654|format_3244,ok
+EnrichNet,operation_2436,data_3021,format_1964,data_2600,format_2331,ok
+GeneTrail,operation_2436,data_3021,format_1964,data_2600,format_2331,ok
+GeneTrail2,operation_2436,data_3021,format_1964,data_2600,format_2331,ok ?
+gProfiler,operation_2436,data_3021,format_1964,data_2600,format_3475,ok
+idconvert,operation_3434,data_0945,format_3655|format_3247|format_3747,data_0945,format_3247|format_3655,ok
+isobar,operation_3639,data_0945,format_3651|format_3752|format_3475,data_0928,format_3508,ok
+Libra,operation_3639,data_0945,format_3655,data_0928,format_3247|format_3475,ok
+msconvert,operation_0335,data_0943,format_3651|format_3654|format_3244|format_3712,data_0943,format_3651|format_3654|format_3244,ok
+mzXMLplot,operation_3203,data_0943,format_3654,data_2968,format_3603,ok
+Pep3D,operation_3203,data_0943,format_3654|format_3244,data_2968,format_3603,ok
+PeptideProphet,operation_3648,data_0945,format_3655|format_3247,data_0945,format_3655,"ok (same data type out, only adding probabilities)"
+PeptideShaker_VPSM,operation_3648,data_0945,format_3247,data_0945,format_3655|format_3475|format_3247,"output data format needed - command line version of the agent can create cpsx files, but that's not (yet) covered by EDAM"
+PeptideShaker_PTMI,operation_3645,data_0945,format_3247,data_0945,format_3655|format_3475|format_3247,"output data format needed - command line version of the agent can create cpsx files, but that's not (yet) covered by EDAM"
+protk,operation_0335,data_0945,format_3655,data_0945,format_3475,ok
+ProteinProphet,operation_3648,data_0945,format_3655,data_0945,format_3747,more specific input information would be good
+PTMProphet,operation_3755,data_0945,format_3655,data_0945,format_3655,ok
+rt,operation_3633,data_2979,format_3475|format_3655,data_1506,format_2330,ok
+rt4,operation_3633,data_2979,format_3475|format_3655,data_1506,format_3475|format_2332,ok
+SearchGUI,operation_3646,data_0943,format_3651|format_1929,data_0945,format_3247|format_3655,Output formats can be many and I just added the currently relevant ones
+SSRCalc,operation_3633,data_2979,format_2330|format_3475,data_1506,format_2330,ok
+X!Tandem,operation_3646,data_0943,format_3244,data_0945,format_3247|format_3711,ok
+Load_MSData_ThermoRAW,,,,data_0943,format_3712,ok
+Show_AminoAcidIndex_hydropathy,,data_1506,format_1915,,,ok - any format
+Show_KEGGPathwayIDs,,data_2343,format_1915,,,ok - any format
+Show_PathwayOrNetwork,,data_2600,format_1915,,,ok - any format
+Show_ProteinIdentification,,data_0945,format_1915,,,ok - any format
+Show_GeneExpressionProfile,,data_0928,format_1915,,,ok - any format
+Show_AnyFile,,data_0006,format_1915,,,"ok - any data, any format - as general as possible, useful for exploring domains"
+extract_protein_names,operation_3434,data_0945,format_3747,data_3021,format_1964,ok
+Tandem2XML,operation_3434,data_0945,format_3711,data_0945,format_3655,ok
+xml2tsv,operation_3434,data_0945,format_3247|format_3655,data_0945,format_3475,ok
